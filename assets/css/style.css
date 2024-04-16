@@ -354,6 +354,10 @@ main {
   border-radius: 8px;
 }
 
+.info-content .skill-name{
+  margin: revert;
+}
+
 .info_more-btn {
   position: absolute;
   top: -15px;
@@ -1345,6 +1349,10 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .info-content .title { padding: 5px 18px; }
 
+  .skill-name {margin: revert;}
+
+  .inline-block-child { display: inline-block;}
+	
   .info_more-btn {
     top: -30px;
     right: -30px;
@@ -1844,6 +1852,8 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .info-content .title { margin: auto; }
 
+  .info-content .skill-name { margin: revert;}
+	
   .info_more-btn { display: none; }
 
   .sidebar-info_more {
